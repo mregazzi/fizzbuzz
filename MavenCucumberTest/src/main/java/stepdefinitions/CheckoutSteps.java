@@ -29,6 +29,6 @@ public class CheckoutSteps {
 
     @Then("^the total price should be (\\d+)c$")
     public void theTotalPriceShouldBeC(int total) throws Throwable {
-        assertEquals(40, checkout.total());    
+        assertEquals(4, checkout.total());    
     }
 }
