@@ -51,7 +51,7 @@ public class FizzBuzzTest {
 	}
 	
 	@Test
-	public void testSayMultipleOfThreeAndFiveAndSevenPrintFizzBang() {
+	public void testSayMultipleOfThreeAndFiveAndSevenPrintFizzBuzzBang() {
 		assertEquals(FIZZ + BUZZ + BANG, fizzBuzz.say(3*5*7));
 	}
 
